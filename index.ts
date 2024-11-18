@@ -1,4 +1,3 @@
-import { log } from 'console'
 import winston from 'winston'
 
 const logger= winston.createLogger({
@@ -6,7 +5,7 @@ const logger= winston.createLogger({
 })
 
 
-if(4>7){
+if(10>7){
         logger.info("working contition")
 }
 else{
